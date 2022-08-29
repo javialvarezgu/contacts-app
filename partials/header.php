@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.0/quartz/bootstrap.min.css" integrity="sha512-IB+6St4qBpunHK0bB+aHsuWIDLhzoTKGHO8awAn/S3Gr6fnOUA9CfqhGHOGBYzNzwX4+V6kNZv6nvXAs2jJceA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.0/darkly/bootstrap.min.css" integrity="sha512-gUckM9ucxSOwqWuP2kRpTZjtzXfgyKGUlMbXcOq9SAXY+qubqqJTht1XHZvK8rUjFKylKb+gtTK2IiOK3jk4TA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <script
     defer
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
