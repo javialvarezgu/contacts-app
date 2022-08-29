@@ -20,7 +20,15 @@ session_start();
     return;
   } 
 
+
   $contact = $statement->fetch(PDO::FETCH_ASSOC);
+
+  if ($contact["user_id"] != $_SESSION["user"]["id"]){
+    http_response_code (403);
+    echo("HTTP 403 UNAUTHORIZED");
+    return;
+  }
+
 
   $error = null;
 
@@ -40,7 +48,11 @@ session_start();
         ":phone_number" => $_POST["phone_number"],
       ]);
 
+      $_SESSION["flash"] = ["message" => "Contact {$_POST['name']} updated."];
+
+
     header("Location: home.php");
+    return;
     }
   }
   
